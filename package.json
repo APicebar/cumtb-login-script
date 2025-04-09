@@ -1,0 +1,17 @@
+{
+  "name": "cumtb-login-script",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "make": "bun build ./src/index.ts --outdir ./dist --target node"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "base-x": "^5.0.1"
+  }
+}
