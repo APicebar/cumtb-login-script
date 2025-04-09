@@ -1,15 +1,21 @@
 # cumtb-login-script
 
-To install dependencies:
+给 CUMTBer 的一个简易校园网登录脚本。
 
-```bash
-bun install
+## Compile
+
+确保你安装了 `bun` 。这个项目是基于 `bun` 开发的。 如何安装？
+
+然后 clone 这个项目：
+```sh
+$ git clone https://github.com/APicebar/cumtb-login-script.git
 ```
 
-To run:
+然后执行
 
-```bash
-bun run index.ts
+```sh
+$ cd cumtb-login-script
+$ bun make
 ```
 
-This project was created using `bun init` in bun v1.1.38. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+二进制文件在 `dist` 目录下。
