@@ -3,7 +3,7 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
-    "make": "bun build ./src/index.ts --outdir ./dist --target node"
+    "make": "bun build --compile --minify --sourcemap ./src/index.ts --outfile ./dist/cumtb-login"
   },
   "devDependencies": {
     "@types/bun": "latest"
